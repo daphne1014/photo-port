@@ -10,12 +10,12 @@ describe('About component', () => {
 
     //First Test
     it('renders', () => {
-        render(<About/>);
+        render(<About />);
     });
     //Second Test
     it('matches snapshot COM node structure', () => {
         //render About
-        const { asFragment } = render(<About/>);
+        const { asFragment } = render(<About />);
 
         expect(asFragment()).toMatchSnapshot();
     })
